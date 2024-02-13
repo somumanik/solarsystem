@@ -1,0 +1,199 @@
+
+body
+ {
+   background-image: url("../img/milkyway.png");
+   background-size: cover;
+ }
+.sun{
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/sun.png");
+    background-size: cover;
+    margin: 250px auto;
+    animation-name: sunani;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    position: relative;
+
+}
+@keyframes sunani 
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }  
+    100%
+    {
+        transform: rotateZ(359deg);  
+    }
+}
+.mercury
+{
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/mercury.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -20px;
+    right: -5px;
+    animation-name: merAni;
+    /* transform-origin: -45px 0px; */
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    
+}
+@keyframes merAni
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(359deg);
+    }
+}
+.venus
+{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/venus.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 45px;
+    right: -50px;
+    /* transform-origin: -75px 0px; */
+    animation-name: venusAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-play-state: paused; */
+}
+@keyframes venusAni
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(359deg);
+    }
+}
+.earth{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/earth.png");
+    position: relative;
+    background-size: cover;
+    position: absolute;
+    bottom: 60px;
+    right: -120px;
+    /* transform-origin: -170px 0px; */
+    animation-name: eartAni;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+   
+   
+ 
+}
+@keyframes eartAni
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(359deg);
+    }
+}
+.moon
+{
+    width: 10px;
+    height: 10px;
+    background-image: url("../img/moon.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    right: -12px;
+    transform-origin: -20px 0px;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+}
+@keyframes moonAni
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(359deg);
+    }
+}
+.mars
+{
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/mars.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -20px;
+    right: -180px;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.jupiter
+{
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/jupiter.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 45px;
+    right: -250px;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.saturn
+{
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/saturn.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 5px;
+    right: -320px;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.neptune
+{
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/neptune.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -55px;
+    right: -400px;
+    animation-name: moonAni;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
